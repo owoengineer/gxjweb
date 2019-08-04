@@ -23,12 +23,9 @@ const Experience = () => (
                 <StepperHead>
                   <div>
                     <h3>{item.designation}</h3>
-                    <a href={item.companyLink}>{item.name}</a>
-                    <p>{item.dated}</p>
+                    <a href={item.companyLink}>{item.name} </a>
+                    <p> {item.supervisor} <br/> {item.dated} </p>
                   </div>
-                  <LogoLink href={item.companyLink}>
-                    <img src={item.logo} alt="company" width="175px"/>
-                  </LogoLink>
                 </StepperHead>
                 <StepperDesc dangerouslySetInnerHTML={{__html: item.description}} />
               </Stepper>
@@ -42,8 +39,11 @@ const Experience = () => (
       <h1>Education</h1>
       <EdContent>
         {
+            <p>Currently a PhD major in Electrical Engineering in University of California, Santa Cruz. <br/>2018 - Now</p>
+        }
+        {
           grad.map(item => (<div key={item.id}>
-            <p>Graduated with a {item.degree}'s Degree majored in {item.major} from {item.name} with a CGPA of {item.cgpa} <br/>
+            <p>Graduated with a {item.degree}'s Degree majored in {item.major} from {item.name} <br/>
             {item.dated}</p>
             </div>))
         }

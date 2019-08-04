@@ -8,6 +8,10 @@ export default [
     path: '/experience',
   },
   {
+    label: 'Publications',
+    path: '/recommendation',
+  },
+  {
     label: 'Projects',
     path: '/projects',
   },
@@ -15,8 +19,5 @@ export default [
     label: 'Contact',
     path: '/contact',
   },
-  {
-    label: 'Recommendation',
-    path: '/recommendation',
-  }
+  
 ]

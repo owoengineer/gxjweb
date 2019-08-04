@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gxjweb",
   siteMetadata: {
     title: 'Rashmi AP',
     siteUrl: 'http://rashmiap.me',

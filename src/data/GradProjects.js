@@ -1,35 +1,38 @@
 import antik from '../assets/images/projects/antik.svg'
 import quiz from '../assets/images/projects/quiz.svg'
+import aware from '../assets/images/projects/aware.svg'
+import quote from '../assets/images/projects/quote.svg'
+
 
 export default [
     {
-        id: 1,
-        title: "ANTIK Web Framework",
-        icon: antik,
-        description: "Built a web application for a packet injection toolkit named ANTIK. The tool’s drawback was its non-scalability. The project was to make it deployable on a global platform and to enable users to test the HTTP Apache server from anywhere on the network. The web app enables users to log in securely and trigger the ANTIK tool from a node on the network. Used Django queue to enqueue the HTTP request for processing, which when serviced, triggers the tool with the necessary inputs. The output from the ANTIK tool is fed into a Redis database, where the client can subscribe for that data using Centrifuge. The report when available, is published to the client page. Programmed the front-end using Bootstrap and used Centrifuge, a real-time messaging server, to allow the user to subscribe to the results. Deployed Redis to store the results from the tool and made use of Django-RQ to maintain a queue of workers. Developed by a 3 member team.",
-        githubPath: null,
-        demoPath: null,
-        year: "2014 - 2015",
-        techUsed: "Python, Django, CSS Bootstrap"
+      id: 1,
+      title: "Modeled Car With Ejector Seat",
+      description: "Built a mechanical ejector with motors, springs, chains, solenoids, and weight sensors. Designed a filter for weight sensors. Designed PCB to connect Microprocessor, Power system, Ejector System, and Detection System.Realized the ejection in dangerous situation (Relative speed is greater than 4.6 m/s and Relative distance is less than 1m) and height accuracy of +/- 0.2 cm for different weights.",
+      icon: quote,
+      githubPath: null,
+      demoPath: "https://courses.engr.illinois.edu/ece445/getfile.asp?id=8055",
+      year: "Feb 2016 – May 2016",
+      techUsed: "Arduino"
     },
     {
       id: 2,
-      title: "Bolly-Quiz : Bollywood quizzing app",
-      description: "A ‘C’ based static application developed using utility tools like RPM, MELD and MAKE. Developed by a 3 member team. This Quiz Application provides 4 categories - Actors, Movies, Musicians and Miscellaneous to pick from and also tracks the highest score and updates it when necessary.",
-      icon: quiz,
+      title: "A Model Power System",
+      description: "Constructed a small power system consisting of induction motor loads, passive loads, generators and an induction motor. Perfected the controlling of the real power grid without loss of synchronization",
+      icon: quote,
       githubPath: null,
       demoPath: null,
-      year: "2012",
-      techUsed: "C"
+      year: "Feb 2016 – May 2016",
+      techUsed: ""
     },
     {
-      id: 3,
-      title: "Graphical Representation of Sorting Algorithms",
-      description: "Representation of simple sorting algorithms in a graphical way in order to understand the implementation of them with the help of java applets.",
-      icon: quiz,
-      githubPath: null,
-      demoPath: null,
-      year: "2012",
-      techUsed: "Java applets"
-    }
+        id: 3,
+        title: "Connect Four Battle",
+        icon: quote,
+        description: "Used Systemverilog and FGPA to connect keyboard and screen to play Connect Four ",
+        githubPath: null,
+        demoPath: null,
+        year: "Oct 2015 – Dec 2015",
+        techUsed: ""
+    },
 ]

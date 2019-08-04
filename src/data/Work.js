@@ -1,42 +1,37 @@
 import amygb from '../assets/images/amygb-logo.png'
-import zoojoobe from '../assets/images/zjb-logo.svg'
-import cat from '../assets/images/cat-logo.svg'
 
 export default [
     {
         id: 1,
-        name: "AmyGb.ai",
-        designation: "Senior Software Engineer",
-        dated: "November 2018 - present",
+        name: "WSP USA",
+        location:"Orange County, CA",
+        designation: "Transit & Rail Systems Intern",
+        dated: "June 2019 - Present",
         logo: amygb,
-        companyLink: "http://www.amygb.ai",
-        description: "<p>AmyGB Specializes in developing products in the area of Text & Vision with an aim to personalize offerings for enterprises, in a way that enhances their customer experience as well as engagement, while reducing the associated costs for an enterprise using machine learning including deep learning & advanced NLP to simulate human like actions to resolve high impact problems for an enterprise.</p><p>Contribution : <p> <ul><li>Designed and implemented an Express/NodeJS microservice REST API for AmyGB sales website that handles creation, updates and retrieval of data on MongoDB. AWS SES was used to send transactional emails to requested end users.</li></p>"
+        supervisor: "Supervisor: Davy Leung",
+        companyLink: "https://www.wsp.com/",
+        description: "<p></p> <li>Participated in Texas High Speed Rail Phase Three Communication Design <p> - Designed Non-Operational Communication System Diagram for TMF(Transition Maintenance Facility)/MOW (Maintenance Of Way) Based on the Design Criteria.</p> <p> - Designed Radio Towers (Lightings, Paintings, and Heights) Based on Coverage. Determined Manufacturer and Products Based on Criteria, Specification, and FCC Regulation.</p> <p> -  Designed Cable Installation details for TMF/MOW/CH (Communication House) based on TIA 569-C and NEC Article 800 standard.</p></li> <br> <li>Quality Control Reviewer for Metro C0980 Regional Connector and LA County Westside Metro <p> - Negotiated Design details with Contractor Based on Metro Design Criteria, Specification, and TIA TSB-88.1-D Standard. </p>  <p> - Learned TIA TSB-88.1-D Standard, Metro Design Criteria, Metro Communication System. </p></li> <br> <li>Designed an Antenna System for a NY city downtown area based on a future building <p> - Assisted my supervisor to write a design report using Microsoft Software(Word, Excel, Visio). </p> <p> - Leaded a research project and Designed for a panel (Aluminum) to reduce the strength of radio waves from antenna to avoid hazards on human. </p> </li></p>"
     },
     {
         id: 2,
-        name: "RoundGlass ZoojooBe",
-        designation: "Software Engineer",
-        dated: "June 2016 - October 2018",
-        logo: zoojoobe,
-        companyLink: "https://www.zoojoo.be",
-        description: "<p>Zoojoo.be is a game based social wellness platform that unites the workforce to form healthier habits. The psychology behind Zoojoo.be is to enable peer-to-peer motivation allowing people to challenge, cheer and reward their colleagues and friends within their organisation. <p>Contribution :<p> <ul><li>We are a small tight-knit team, so I got a chance to wear many hats, from requirement analysis to generating the build.</li><li>Worked closely with Product Managers, UX Designers and Backend Engineers to develop pixel perfect User Interface</li><li>Built new user-facing features on the App like Social feed, Dare, Pregnancy module and Journey which were developed with ReactJS on the frontend stack. You can read more about these under the Projects section.</li><li>Developed and maintained the frontend of Zoojoobe sales website.</li></ul><p>Additional :</p><ul><li>Was part of multiple all-day Hackathons to develop new user-facing features.</li><li>Conducted a yoga webinar session on International Yoga Day at Mindtree and Unisys for about 350 employees each.</li><li>Conducted a yoga session for Society of Human Resource Management(SHRM) Professionals for Zoojoobe's Moonshot event at IIM Bangalore.</li><li>Was part of the product team that organised onsite campaigns.</li></ul>"
+        name: "George Washingtong University",
+        location:"Washington D.C.",
+        designation: "Thesis Research, Research Assistant",
+        dated: "June. 2017 - May 2018",
+        logo: amygb,
+        companyLink: "",
+        supervisor: "Supervisor: Helgert J. Hermann",
+        description: "<li> UWB Indoor Localization System <p> – Compared features of Ultra Wideband with features of existing techniques such as Wi-Fi.</p> <p> - Analyzed UWB transmission system (transmitter, receiver, and transmission channel), UWB positioning system based on UWB transmission system, and UWB-based Wireless Positioning Estimated Algorithms.</p>  <p> - Simulated positioning model in 2-dimension and 3-dimension systems, and improved average positioning error distance to 7cm.</p></li>"
     },
     {
         id: 3,
-        name: "RoundGlass ZoojooBe",
-        designation: "Frontend Developer Intern",
-        dated: "Jan 2016 - May 2016",
-        logo: zoojoobe,
-        companyLink: "https://www.zoojoo.be",
-        description: "<p>Zoojoo.be is a game based social wellness platform that unites the workforce to form healthier habits. The psychology behind Zoojoo.be is to enable peer-to-peer motivation allowing people to challenge, cheer and reward their colleagues and friends within their organisation. <p>Contribution : <p> <ul><li>Performance improvements to the platform. This helped reduce the page load time from 12 seconds to just 4 seconds.</li><li>Worked on multiple client specific feature requirements on the platform, for companies like HP, HPI, Mphasis, Sapient, Mindtree and more.</li><li>Developed and maintained the frontend of the sales website for Aware, a guided mindfulness meditation mobile app.</li></ul>"
+        name: "USCS Chinese Union (Non-Profit Organization)",
+        location:"Santa Cruz, CA",
+        designation: "Intern",
+        dated: "June 2019 - Present",
+        logo: amygb,
+        companyLink: "",
+        description: "<p>Eboard Member as the Administrative Assistant</p>"
     },
-    {
-        id: 4,
-        name: "Caterpillar Inc.",
-        designation: "Associate IT Analyst",
-        dated: "​Aug 2015 - Dec 2015",
-        logo: cat,
-        companyLink: "https://www.caterpillar.com",
-        description: "<p>Started my career at Caterpillar Inc. in the Global Information Services(GIS) division as an Associate IT Analyst.</p><p>Features required me to work across the mainframe stack with COBOL, the primary mainframe programming language  which compiles to machine language, ISPF and JCL."
-    }
+    
 ];

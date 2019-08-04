@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const Recommendation = () => (
   <Layout>
   <RecWrapper>
-    <h1>Recommendation</h1>
+    <h1>Publications</h1>
     {
       rec.map(item => (<RecBox key={item.id} >
       <h3><a href={item.userLink}>{item.name}</a></h3>

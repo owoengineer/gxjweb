@@ -8,72 +8,62 @@ import fitness from '../assets/images/projects/fitness.svg'
 export default [
     {
         id: 1,
-        title: "React Redux Movies/TV Shows App",
-        icon: movie,
-        description: "This is a responsive movies and TV shows app built using ReactJS and utilizes Redux for state management. The Movie Database (TMDb) API is used to fetch data. You can navigate between the latest movies and the latest TV shows.",
-        githubPath: "https://github.com/rashmiap/react-redux-TMDb-app",
-        demoPath: "https://redux-tmdb-app.surge.sh/",
-        year: "2018",
-        techUsed: "React, Redux, Redux-Thunk, TMDb api"
+        title: "UWB Indoor Localization System",
+        icon: quote,
+        description: "Compared Features of Ultra Wideband with features of existing techniques such as Wi-Fi.Analyzed UWB transmission system (transmitter, receiver, and transmission channel), UWB positioning system based on UWB transmission system, and UWB-based Wireless Positioning Estimated Algorithms..Simulated positioning model in 2-dimension and 3-dimension systems, and improved average positioning error distance to 7cm",
+        githubPath: null,
+        demoPath: null,
+        year: "May 2017 – May 2018",
+        techUsed: ""
     },
     {
         id: 2,
-        title: "Music Artist Search App",
-        icon: audio,
-        description: "This is a small and simple artist search app developed in ReactJS using the audioDB api.",
-        githubPath: "https://github.com/rashmiap/audioDB-react-app",
-        demoPath: "https://audiodb-artist-searchapp.surge.sh",
-        year: "2018",
-        techUsed: "React, Material-UI, theaudiodb"
+        title: "Audio Compression and Reconstruction",
+        icon: quote,
+        description: "Used u-law algorithm to compress original speech data from 16-bit to 8-bit data, and Used IMA ADPCM encoder to encode compressed data.Used IMA ADPCM decoder to decode compressed data, and used u-law algorithm to expand and to reconstruct new speech data. New speech data can clearly express the same content",
+        githubPath: null,
+        demoPath: null,
+        year: "Oct 2017 – Dec 2017",
+        techUsed: ""
     },
     {
         id: 3,
-        title: "Bulls and Cows React game",
-        icon: game,
-        description: "Bulls and Cows is an old code breaking mind game.The goal of this game is to guess a 4-digit number within the least number of attempts possible. With every guess, you will get a feedback indicating how many Bulls and Cows you got with the guess.",
-        githubPath: "https://github.com/rashmiap/bulls-cows-react-game",
-        demoPath: "https://bulls-cows-game.surge.sh",
-        year: "2018",
-        techUsed: "React, styled-components"
+        title: "Proportionate Adaptive Algorithms for Network Echo Cancellation",
+        icon: quote,
+        description: "Conducted individual study on the Echo Cancellation and Adaptive Algorithms (PNLMS, Mu-law, and NLMS). Learned LMS, PNLMS, NLMS Algorithms and Echo Cancellation. Achieved NLMS, PNLMS, MPNLMS, and SPNLMS learning curves by MATLAB. Compared the advantages and disadvantages of four algorithms for small and large coefficients.",
+        githubPath: null,
+        demoPath: null,
+        year: "May 2017 – Jul 2017",
+        techUsed: ""
     },
     {
         id: 4,
-        title: "Exercise Journal API",
-        icon: fitness,
-        description: "A REST API that processes exercise activity which was part of the freecode curriculum. The frontend is built using HTML/CSS and is used to demo API functions. API is built using Node/Express and handles data creation, updates, and retrieval. Backend is a MongoDB document database that stores user and exercise data.",
-        githubPath: "https://github.com/rashmiap/fcc-exercisetracker",
-        demoPath: "https://exercise-rash-tracker.glitch.me",
-        year: "2018",
-        techUsed: "NodeJS, MongoDB, Mongoose"
+        title: "Face Recognition",
+        icon: quote,
+        description: "Used ASM method to detect and to crop a specic face from a raw photo with multiple people. Then, used Gabor filter to the cropped face in order to do edge detection. Next, used PCA method to extract its face features. Trained a machine learning model using data stored in the database (10 pictures per people), and compared face features to do face recognition. Corrected rate to detect a specic face from a raw multi-people photo is 89%",
+        githubPath: null,
+        demoPath: null,
+        year: "Jan 2017 – May 2017",
+        techUsed: ""
     },
     {
         id: 5,
-        title: "React MobX Movies App",
-        icon: movie,
-        description: "This is a responsive movies app that displays the latest upcoming movies, built using ReactJS and utilizes MobX for state management.The Movie Database (TMDb) API is used to fetch data. Can search for movies based on movie name. Can view full details including cast members of each movie by clicking on 'See More' button.",
-        githubPath: "https://github.com/rashmiap/mobx-tmdb-react-app",
-        demoPath: "http://mobx-tmdb-app.surge.sh/",
-        year: "2019",
-        techUsed: "React, MobX, Material-UI, TMDb api"
+        title: "Texture Synthesis Using 2D MA Modeling",
+        icon: quote,
+        description: "Modeded the texture by a convolution of a 2D excitation process with a 2D FIR. Found three parameters: Elongation, Orientation, ML estimator and compare them with cost function to find best way to synthesis new image. Successfully repeated Dr. Eom’s “2D Moving Average Models for Texture Synthesis and Analysis”",
+        githubPath: null,
+        demoPath: null,
+        year: "Jan 2017 – May 2017",
+        techUsed: ""
     },
     {
         id: 6,
-        title: "React motion ToDo App",
-        icon: todo,
-        description: "This is a simple responsive ToDo app developed using React and React-motion",
-        githubPath: "https://github.com/rashmiap/react-motion-todo",
-        demoPath: "https://react-motion-todo.surge.sh/",
-        year: "2018",
-        techUsed: "React, React-motion, Material-UI"
-    },
-    {
-        id: 7,
-        title: "React Quote Machine",
+        title: "Wavelet Image Processing",
         icon: quote,
-        description: "A responsive ReactJS random quote generator machine 🔮",
-        githubPath: "https://github.com/rashmiap/react-quote-machine",
-        demoPath: "https://react-quote-machine.surge.sh",
-        year: "2018",
-        techUsed: "React, create-react-app"
+        description: "Compared multiple signal borders extension methods in repairing damaged image. Achieved image edge detection with wavelets.",
+        githubPath: null,
+        demoPath: null,
+        year: "May 2017 – May 2018",
+        techUsed: ""
     },
 ];
